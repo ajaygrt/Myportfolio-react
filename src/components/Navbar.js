@@ -77,14 +77,13 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/project"
+                href="https://ajaylakshman41.my.canva.site/ajay-lakshman"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
+                My Portfolio
               </Nav.Link>
             </Nav.Item>
 
